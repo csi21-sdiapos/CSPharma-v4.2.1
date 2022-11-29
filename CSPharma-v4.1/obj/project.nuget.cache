@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+8ZWY0rOLP69LgCGlP0j89uaqNb2gsI7X9Os0p9NaRTYMClN3b9hJ/YSob04LJtD6waMcZ12hvi8KEgsrBQ0MQ==",
+  "dgSpecHash": "j3cvPB/drmIRv3Z+VyGQMyPo47iGSo4jrCTvSI0BQvPP6Ekubz4s5bYBdpgK4hyCR7xLtcRD2nuO057EjnsWpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sergio DC\\Desktop\\CSPharma-v4.2\\CSPharma-v4.1\\CSPharma-v4.1.csproj",
+  "projectFilePath": "C:\\Users\\Sergio DC\\Desktop\\CSPharma-v4.2.1\\CSPharma-v4.1\\CSPharma-v4.1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sergio DC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Sergio DC\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

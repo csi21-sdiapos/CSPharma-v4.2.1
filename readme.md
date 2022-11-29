@@ -1,6 +1,6 @@
-# CSPharma-v4.2.0
+# CSPharma-v4.2.1
 
-- [CSPharma-v4.2.0](#cspharma-v420)
+- [CSPharma-v4.2.1](#cspharma-v421)
   - [Introducción](#introducción)
 - [1. Ocultar botones del navbar](#1-ocultar-botones-del-navbar)
 - [2. Restringir acceso a usuarios no identificados](#2-restringir-acceso-a-usuarios-no-identificados)
@@ -20,9 +20,11 @@
 
 ## Introducción
 
-Continuando con la práctica anterior, tras añadir con Scaffold-Identity todas las funcionalidades del login/register del usuario (empleado), y haber migrado a la base de datos un nuevo esquema llamado "dlk_torrecontrol" con las tablas de Scaffold (como la de IdentityUser --> AspNetusers); vamos a continuar ahora añadiendo roles de usuario, y aprenderemos a crearlos y asignarlos, así como mostrar de forma más protegida el contenido de nuestra web.
+Continuando con la práctica anterior, tras añadir con Scaffold-Identity todas las funcionalidades del login/register del usuario (empleado), y haber migrado a la base de datos un nuevo esquema llamado "dlk_torrecontrol" con las tablas de Scaffold; vamos a continuar ahora añadiendo roles de usuario, y aprenderemos a crearlos y asignarlos, así como mostrar de forma más protegida el contenido de nuestra web.
 
 **Nota**: Esto es la continuación de la v4.2.0
+
+**Nota**: Recuerda que había actualizado el repositorio de la versión anterior (v4.2.0) para cambiar los nombres por defecto de las tablas que crea Scaffold, haciendo uso del ModelBuilder (fluent API) en la clase del contexto.
 
 # 1. Ocultar botones del navbar
 

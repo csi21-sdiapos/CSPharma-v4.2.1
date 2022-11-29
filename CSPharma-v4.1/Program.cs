@@ -26,7 +26,7 @@ builder.Services.AddEntityFrameworkNpgsql()
 //builder.Services.AddDefaultIdentity<UserAuthentication>(options => options.SignIn.RequireConfirmedAccount = true)
 //    .AddEntityFrameworkStores<LoginRegisterContext>();
 
-builder.Services.AddDefaultIdentity<UserAuthentication>(options => options.SignIn.RequireConfirmedAccount = false)
+builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<LoginRegisterContext>();
 
