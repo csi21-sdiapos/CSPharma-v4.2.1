@@ -17,6 +17,9 @@
     - [Admin.cshtml.cs](#admincshtmlcs)
     - [Program.cs](#programcs)
 - [5. Ocultar una parte concreta de una vista según un rol](#5-ocultar-una-parte-concreta-de-una-vista-según-un-rol)
+- [Actualizaciones del proyecto](#actualizaciones-del-proyecto)
+  - [Re-Migration - Cambiando los nombres por defecto de las tablas de Scaffold-Identity](#re-migration---cambiando-los-nombres-por-defecto-de-las-tablas-de-scaffold-identity)
+  - [Frontend - Diseño del Login, Register, y Home](#frontend---diseño-del-login-register-y-home)
 
 ## Introducción
 
@@ -266,3 +269,12 @@ Hacemos una prueba, y primero accedemos como Sergio, que tiene el rol de Adminis
 Y si ahora probamos a acceder como Javier, que tiene el rol de Users... comprobamos que no podemos ver nada ya que no nos aparece la lista de objetos.
 
 ![](./img/10.png)
+
+# Actualizaciones del proyecto
+
+## Re-Migration - Cambiando los nombres por defecto de las tablas de Scaffold-Identity
+
+[Prueba de ejecición de roles después de haber rehecho la migración y cambiado los nombres de las tablas de la BBDD](https://github.com/csi21-sdiapos/CSPharma-v4.2.1/issues/2)
+
+## Frontend - Diseño del Login, Register, y Home
+

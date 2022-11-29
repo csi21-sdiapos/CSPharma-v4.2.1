@@ -34,36 +34,34 @@
             <th></th>
         </tr>
     </thead>
-    @if (User.IsInRole("Administrators")){
-        <tbody>
-            @foreach (var item in Model.TdcCatLineasDistribucion)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.MdUuid)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.MdDate)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Id)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.CodProvincia)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.CodMunicipio)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.CodBarrio)
-                    </td>
-                    <td>
-                        <a asp-page="./Edit" asp-route-id="@item.CodLinea">Edit</a> |
-                        <a asp-page="./Details" asp-route-id="@item.CodLinea">Details</a> |
-                        <a asp-page="./Delete" asp-route-id="@item.CodLinea">Delete</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    }
+    <tbody>
+        @foreach (var item in Model.TdcCatLineasDistribucion)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MdUuid)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MdDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CodProvincia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CodMunicipio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CodBarrio)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.CodLinea">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.CodLinea">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.CodLinea">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>

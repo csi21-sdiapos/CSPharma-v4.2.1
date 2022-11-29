@@ -1,18 +1,10 @@
 html {
   font-size: 14px;
+  min-height: 100vh;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
+header {
+    font-size: 20px;
+    background: #5ccb5f;
+    color: #ffffff;
 }
