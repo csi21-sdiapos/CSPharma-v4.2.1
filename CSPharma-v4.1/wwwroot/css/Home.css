@@ -18,7 +18,7 @@ section {
 
     section .bannerVideo {
         position: absolute;
-        /*top: 0;*/ /* con esto me cargo el navbar del layout */
+        top: 0;
         left: 0;
         width: 100%;
         height: 100%;
@@ -124,21 +124,21 @@ section {
 
                 .container1 .content .bannerText div h2 {
                     color: #fff;
-                    font-size: 6em;
+                    font-size: 4em;
                     line-height: 1em;
                     font-weight: 700;
                 }
 
                 .container1 .content .bannerText div p {
                     color: #fff;
-                    font-size: 18px;
+                    font-size: 15px;
                     margin: 20px 0;
                 }
 
 .sci {
     position: absolute;
-    /*bottom: 0;*/
-    margin-top: 375px;
+    bottom: 0;
+    /*margin-top: 375px;*/
     left: 0;
     display: flex;
     flex-direction: column;
@@ -168,8 +168,8 @@ section {
 
 .controls {
     position: absolute;
-    /*bottom: 0;*/
-    margin-top: 475px;
+    bottom: 0;
+    /*margin-top: 475px;*/
     margin-right: 25px;
     right: 0;
     display: flex;

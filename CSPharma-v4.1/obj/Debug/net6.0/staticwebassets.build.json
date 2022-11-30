@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f7BwjJYSKew9VxKCyH8qoSxQqEZ5xJyrc3usGSJICEY=",
+  "Hash": "Agv57rVWVK/UpuzfK76jSdFmM4BTfLT+ClVoU+k94VE=",
   "Source": "CSPharma-v4.1",
   "BasePath": "_content/CSPharma-v4.1",
   "Mode": "Default",
@@ -1205,6 +1205,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
+    },
+    {
+      "Identity": "C:\\Users\\Sergio DC\\Desktop\\CSPharma-v4.2.1\\CSPharma-v4.1\\wwwroot\\css\\Navbar.css",
+      "SourceId": "CSPharma-v4.1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sergio DC\\Desktop\\CSPharma-v4.2.1\\CSPharma-v4.1\\wwwroot\\",
+      "BasePath": "_content/CSPharma-v4.1",
+      "RelativePath": "css/Navbar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Navbar.css"
     },
     {
       "Identity": "C:\\Users\\Sergio DC\\Desktop\\CSPharma-v4.2.1\\CSPharma-v4.1\\wwwroot\\css\\Register.css",
