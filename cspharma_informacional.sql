@@ -467,30 +467,40 @@ INSERT INTO dlk_torrecontrol."Dlk_cat_acc_roles" VALUES ('2', 'Users', 'User', '
 -- Data for Name: Tdc_cat_estados_devolucion_pedido; Type: TABLE DATA; Schema: dwh_torrecontrol; Owner: postgres
 --
 
+INSERT INTO dwh_torrecontrol."Tdc_cat_estados_devolucion_pedido" VALUES ('A', '1', '2022-11-07 10:24:00', 1, 'Aceptada');
+INSERT INTO dwh_torrecontrol."Tdc_cat_estados_devolucion_pedido" VALUES ('R', '2', '2022-11-07 10:24:00', 2, 'Rechazada');
 
 
 --
 -- Data for Name: Tdc_cat_estados_envio_pedido; Type: TABLE DATA; Schema: dwh_torrecontrol; Owner: postgres
 --
 
+INSERT INTO dwh_torrecontrol."Tdc_cat_estados_envio_pedido" VALUES ('S1', '1', '2022-11-07 10:23:00', 1, 'Solicitado');
+INSERT INTO dwh_torrecontrol."Tdc_cat_estados_envio_pedido" VALUES ('R1', '2', '2022-11-07 10:23:00', 2, 'Registrado en almacén');
 
 
 --
 -- Data for Name: Tdc_cat_estados_pago_pedido; Type: TABLE DATA; Schema: dwh_torrecontrol; Owner: postgres
 --
 
+INSERT INTO dwh_torrecontrol."Tdc_cat_estados_pago_pedido" VALUES ('E1', '1', '2022-11-07 10:24:00', 1, 'Emitida factura');
+INSERT INTO dwh_torrecontrol."Tdc_cat_estados_pago_pedido" VALUES ('R', '2', '2022-11-07 10:24:00', 2, 'Rechazado');
 
 
 --
 -- Data for Name: Tdc_cat_lineas_distribucion; Type: TABLE DATA; Schema: dwh_torrecontrol; Owner: postgres
 --
 
+INSERT INTO dwh_torrecontrol."Tdc_cat_lineas_distribucion" VALUES ('SEV-SEV-NER', '1', '2022-11-07 10:10:00', 2, 'SEV', 'SEV', 'NER');
+INSERT INTO dwh_torrecontrol."Tdc_cat_lineas_distribucion" VALUES ('SEV-SEV-AMA', '2', '2022-11-07 10:11:00', 3, 'SEV', 'SEV', 'AMA');
 
 
 --
 -- Data for Name: Tdc_tch_estado_pedidos; Type: TABLE DATA; Schema: dwh_torrecontrol; Owner: postgres
 --
 
+INSERT INTO dwh_torrecontrol."Tdc_tch_estado_pedidos" VALUES (1, '1', '2022-11-07 10:25:00', '1', 'S1', 'E1', 'A', 'SEV-SEV-NER');
+INSERT INTO dwh_torrecontrol."Tdc_tch_estado_pedidos" VALUES (2, '2', '2022-11-07 10:25:00', '2', 'R1', 'R', 'R', 'SEV-SEV-AMA');
 
 
 --
@@ -528,35 +538,35 @@ SELECT pg_catalog.setval('dlk_torrecontrol."Dlk_cat_acc_claim_roles_Id_seq"', 1,
 -- Name: Tdc_cat_estados_devolucion_pedido_Id_seq; Type: SEQUENCE SET; Schema: dwh_torrecontrol; Owner: postgres
 --
 
-SELECT pg_catalog.setval('dwh_torrecontrol."Tdc_cat_estados_devolucion_pedido_Id_seq"', 1, false);
+SELECT pg_catalog.setval('dwh_torrecontrol."Tdc_cat_estados_devolucion_pedido_Id_seq"', 2, true);
 
 
 --
 -- Name: Tdc_cat_estados_envio_pedido_Id_seq; Type: SEQUENCE SET; Schema: dwh_torrecontrol; Owner: postgres
 --
 
-SELECT pg_catalog.setval('dwh_torrecontrol."Tdc_cat_estados_envio_pedido_Id_seq"', 1, false);
+SELECT pg_catalog.setval('dwh_torrecontrol."Tdc_cat_estados_envio_pedido_Id_seq"', 2, true);
 
 
 --
 -- Name: Tdc_cat_estados_pago_pedido_Id_seq; Type: SEQUENCE SET; Schema: dwh_torrecontrol; Owner: postgres
 --
 
-SELECT pg_catalog.setval('dwh_torrecontrol."Tdc_cat_estados_pago_pedido_Id_seq"', 1, false);
+SELECT pg_catalog.setval('dwh_torrecontrol."Tdc_cat_estados_pago_pedido_Id_seq"', 2, true);
 
 
 --
 -- Name: Tdc_cat_lineas_distribucion_Id_seq; Type: SEQUENCE SET; Schema: dwh_torrecontrol; Owner: postgres
 --
 
-SELECT pg_catalog.setval('dwh_torrecontrol."Tdc_cat_lineas_distribucion_Id_seq"', 1, false);
+SELECT pg_catalog.setval('dwh_torrecontrol."Tdc_cat_lineas_distribucion_Id_seq"', 3, true);
 
 
 --
 -- Name: Tdc_tch_estado_pedidos_Id_seq; Type: SEQUENCE SET; Schema: dwh_torrecontrol; Owner: postgres
 --
 
-SELECT pg_catalog.setval('dwh_torrecontrol."Tdc_tch_estado_pedidos_Id_seq"', 1, false);
+SELECT pg_catalog.setval('dwh_torrecontrol."Tdc_tch_estado_pedidos_Id_seq"', 2, true);
 
 
 --

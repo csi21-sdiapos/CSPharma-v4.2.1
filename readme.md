@@ -2,6 +2,7 @@
 
 - [CSPharma-v4.2.1](#cspharma-v421)
   - [Introducción](#introducción)
+  - [Historial de commits](#historial-de-commits)
 - [1. Ocultar botones del navbar](#1-ocultar-botones-del-navbar)
 - [2. Restringir acceso a usuarios no identificados](#2-restringir-acceso-a-usuarios-no-identificados)
 - [3. Creación de roles en la BBDD](#3-creación-de-roles-en-la-bbdd)
@@ -19,7 +20,7 @@
 - [5. Ocultar una parte concreta de una vista según un rol](#5-ocultar-una-parte-concreta-de-una-vista-según-un-rol)
 - [Actualizaciones del proyecto](#actualizaciones-del-proyecto)
   - [Re-Migration - Cambiando los nombres por defecto de las tablas de Scaffold-Identity](#re-migration---cambiando-los-nombres-por-defecto-de-las-tablas-de-scaffold-identity)
-  - [Frontend - Diseño del Login, Register, y Home](#frontend---diseño-del-login-register-y-home)
+  - [Frontend - Diseño del Login, Register, Home y Navbar](#frontend---diseño-del-login-register-home-y-navbar)
 
 ## Introducción
 
@@ -28,6 +29,10 @@ Continuando con la práctica anterior, tras añadir con Scaffold-Identity todas 
 **Nota**: Esto es la continuación de la v4.2.0
 
 **Nota**: Recuerda que había actualizado el repositorio de la versión anterior (v4.2.0) para cambiar los nombres por defecto de las tablas que crea Scaffold, haciendo uso del ModelBuilder (fluent API) en la clase del contexto.
+
+## Historial de commits
+
+[Ver el historial de commits del repositorio](https://github.com/csi21-sdiapos/CSPharma-v4.2.1/commits)
 
 # 1. Ocultar botones del navbar
 
@@ -276,5 +281,6 @@ Y si ahora probamos a acceder como Javier, que tiene el rol de Users... comproba
 
 [Prueba de ejecición de roles después de haber rehecho la migración y cambiado los nombres de las tablas de la BBDD](https://github.com/csi21-sdiapos/CSPharma-v4.2.1/issues/2)
 
-## Frontend - Diseño del Login, Register, y Home
+## Frontend - Diseño del Login, Register, Home y Navbar
 
+[Prueba de ejecución para ver el frontend del login, el register y el home](https://github.com/csi21-sdiapos/CSPharma-v4.2.1/issues/3)
