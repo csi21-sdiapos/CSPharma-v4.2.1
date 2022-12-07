@@ -3,6 +3,7 @@
 - [CSPharma-v4.2.1](#cspharma-v421)
   - [Introducción](#introducción)
   - [Historial de commits](#historial-de-commits)
+  - [Enlace a Trello - tablero del sprint 2](#enlace-a-trello---tablero-del-sprint-2)
 - [1. Ocultar botones del navbar](#1-ocultar-botones-del-navbar)
 - [2. Restringir acceso a usuarios no identificados](#2-restringir-acceso-a-usuarios-no-identificados)
 - [3. Creación de roles en la BBDD](#3-creación-de-roles-en-la-bbdd)
@@ -33,6 +34,10 @@ Continuando con la práctica anterior, tras añadir con Scaffold-Identity todas 
 ## Historial de commits
 
 [Ver el historial de commits del repositorio](https://github.com/csi21-sdiapos/CSPharma-v4.2.1/commits)
+
+## Enlace a Trello - tablero del sprint 2
+
+[Enlace a Trello para unirte como miembro a mi tablero del Sprint 2](https://trello.com/invite/b/iD6WViCT/ATTI5a3120080f6ba073d91b37fa537c9b7d62ABE030/cspharma-v41)
 
 # 1. Ocultar botones del navbar
 
@@ -90,6 +95,8 @@ Tenemos que ir a nuestro esquema *dlk_torrecontrol*, y a la tabla de *AspNetRole
 - Moises --> Employee (1)
 
 - Javier --> User (2)
+
+**Nota**: las contraseñas (normales desencriptadas) de estos usuarios de prueba es la misma (Abc123!).
 
 # 4. Restringir el acceso a las vistas según el rol del usuario identificado
 
